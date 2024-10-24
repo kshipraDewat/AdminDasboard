@@ -7,10 +7,12 @@ import SalesPage from './pages/SalesPage'
 import OrdersPage from './pages/OrdersPage'
 import AnalyticsPages from './pages/AnalyticsPages'
 import Settings from './pages/Settings'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
     <div>
+    <NavBar/>
      <Routes>
         <Route path='/' element={<OverviewPage/>}/>
         <Route path='/products' element={<ProductsPage/>}/>
